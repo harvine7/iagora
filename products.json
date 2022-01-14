@@ -86,7 +86,7 @@
             "product_name": "Mangga",
             "product_category": "buah",
             "product_grade": "C",
-            "product_image": "https://images.unsplash.com/photo-1501746877-14782df58970?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8bWFuZ298ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+            "product_image": "https://cdn-image.hipwee.com/wp-content/uploads/2019/09/hipwee-Screen-Shot-2019-09-26-at-4.01.00-PM-1-750x422.png",
             "product_price": 15000,
             "product_uom": "/kg"
         },
@@ -140,7 +140,7 @@
             "product_name": "Markisa",
             "product_category": "buah",
             "product_grade": "C",
-            "product_image": "https://images.unsplash.com/photo-1476837579993-f1d3948f17c2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fG1hcmtpc2ElMjBmcnVpdHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+            "product_image": "https://www.greeners.co/wp-content/uploads/2019/11/Markisa-Buah-dengan-Sari-Melimpah.jpg",
             "product_price": 12000,
             "product_uom": "/kg"
         },
