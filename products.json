@@ -2,6 +2,15 @@
     "products": [
         {
             "id": "1",
+            "product_name": "Bit",
+            "product_category": "buah",
+            "product_grade": "C",
+            "product_image": "https://cf.shopee.co.id/file/1ce77b7bf2028954b7b367bf2112a515",
+            "product_price": 10000,
+            "product_uom": "/kg"
+        },
+        {
+            "id": "1",
             "product_name": "Semangka ",
             "product_category": "buah",
             "product_grade": "A",
@@ -20,11 +29,11 @@
         },
         {
             "id": "3",
-            "product_name": "Pisang",
+            "product_name": "Pisang Barangan",
             "product_category": "buah",
             "product_grade": "B",
             "product_image": "https://images.unsplash.com/photo-1603833665858-e61d17a86224?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8YmFuYW5hfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
-            "product_price": 15000,
+            "product_price": 10000,
             "product_uom": "/sisir"
         },
         {
@@ -83,11 +92,11 @@
         },
         {
             "id": "10",
-            "product_name": "Mangga",
+            "product_name": "Mangga Golek",
             "product_category": "buah",
             "product_grade": "C",
             "product_image": "https://cdn-image.hipwee.com/wp-content/uploads/2019/09/hipwee-Screen-Shot-2019-09-26-at-4.01.00-PM-1-750x422.png",
-            "product_price": 15000,
+            "product_price": 20000,
             "product_uom": "/kg"
         },
         {
@@ -101,11 +110,29 @@
         },
         {
             "id": "12",
-            "product_name": "Jeruk",
+            "product_name": "Jeruk Berastagi",
             "product_category": "buah",
             "product_grade": "C",
             "product_image": "https://images.unsplash.com/photo-1459663296021-50769c04b149?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8b3JhbmdlJTIwZ3JvY2VyaWVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
             "product_price": 15000,
+            "product_uom": "/kg"
+        },
+        {
+            "id": "12",
+            "product_name": "Jeruk Peras",
+            "product_category": "buah",
+            "product_grade": "C",
+            "product_image": "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full//112/MTA-8992957/sayur_home_delivery_sayurhd_buah_segar_jeruk_peras_500_gram_full01_dxz260zl.jpg",
+            "product_price": 9000,
+            "product_uom": "/kg"
+        },
+        {
+            "id": "12",
+            "product_name": "Lemon",
+            "product_category": "buah",
+            "product_grade": "C",
+            "product_image": "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full//95/MTA-7119563/warung_beno_warung_beno_-_jeruk_lemon_lokal_-_1_kg-_full03_ngm9u4i1.jpg",
+            "product_price": 5000,
             "product_uom": "/kg"
         },
         {
@@ -168,7 +195,7 @@
             "product_category": "sayur",
             "product_grade": "B",
             "product_image": "https://images.unsplash.com/photo-1604321272882-07c73743be32?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8ZWdncGxhbnR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
-            "product_price": 6000,
+            "product_price": 9000,
             "product_uom": "/ kg"
         },
         {
@@ -186,7 +213,7 @@
             "product_category": "sayur",
             "product_grade": "B",
             "product_image": "https://media.istockphoto.com/photos/peking-cabbage-it-is-also-chinese-cabbage-or-petsai-or-salad-and-picture-id1347068633?b=1&k=20&m=1347068633&s=170667a&w=0&h=_k_8bXZJQPGK9lRG87BX7yn3eOaz-nXLUPOVkw1LgB0=",
-            "product_price": 4500,
+            "product_price": 10000,
             "product_uom": "/ kg"
         },
         {
@@ -240,7 +267,7 @@
             "product_category": "sayur",
             "product_grade": "B",
             "product_image": "https://images.unsplash.com/photo-1561136594-7f68413baa99?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dG9tYXRvfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
-            "product_price": 6000,
+            "product_price": 8000,
             "product_uom": "/ kg"
         },
         {
@@ -312,7 +339,7 @@
             "product_category": "sayur",
             "product_grade": "C",
             "product_image": "https://images.unsplash.com/photo-1602769515559-e15133a7e992?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c2NhbGxpb25zfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
-            "product_price": 18000,
+            "product_price": 20000,
             "product_uom": "/ kg"
         },
         {
@@ -353,11 +380,11 @@
         },
         {
             "id": "40",
-            "product_name": "Cabai",
+            "product_name": "Cabai Merah",
             "product_category": "sayur",
             "product_grade": "C",
             "product_image": "https://images.unsplash.com/photo-1546860255-95536c19724e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Y2hpbGxpfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
-            "product_price": 28000,
+            "product_price": 16000,
             "product_uom": "/ kg"
         },
         {
@@ -421,7 +448,7 @@
             "product_grade": "C",
             "product_image": "https://media.istockphoto.com/photos/tempeh-picture-id481199705?b=1&k=20&m=481199705&s=170667a&w=0&h=SqyAb_ol9LuCwDNrfFRXLF54NnAHOuFM1v9sAgEmhQw=",
             "product_price": 5000,
-            "product_uom": "/ pcs"
+            "product_uom": "/ batang"
         },
         {
             "id": "48",
