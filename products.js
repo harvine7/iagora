@@ -15,7 +15,7 @@ function appendData(data) {
         div.className = 'mb-4 col-lg-3 col-6'
         div.innerHTML =
             '<div class="card">' +
-                '<img src=' + data.products[i].product_image + '>' +
+                '<img src=' + data.products[i].product_image + 'alt =' + data.products[i].product_name + '>' +
                 '<div class="product-text">' +
                     '<h4 class="product-name"><b>' + data.products[i].product_name + '</b></h4>' +
                     '<p class="product-price"><b> Rp. ' + data.products[i].product_price.toLocaleString() + '&nbsp;' + data.products[i].product_uom + '</b>' +
