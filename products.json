@@ -100,6 +100,24 @@
             "product_uom": "/kg"
         },
         {
+            "id": "10",
+            "product_name": "Mangga Arumanis",
+            "product_category": "buah",
+            "product_grade": "C",
+            "product_image": "https://cdn-banpm.nitrocdn.com/GMeViuwpFasieJHmyKxYXuPZbKfzgGFA/assets/static/optimized/rev-c994fab/wp-content/uploads/18-jenis-varietas-buah-mangga-beserta-keunggulannya-mangga-arumanis.jpg",
+            "product_price": 20000,
+            "product_uom": "/kg"
+        },
+        {
+            "id": "10",
+            "product_name": "Mangga Alpukat",
+            "product_category": "buah",
+            "product_grade": "C",
+            "product_image": "https://awsimages.detik.net.id/community/media/visual/2017/11/11/1581e0e2-1fe4-438d-a675-5a85cb0de67b.jpg?w=700&q=90",
+            "product_price": 20000,
+            "product_uom": "/kg"
+        },
+        {
             "id": "11",
             "product_name": "Salak",
             "product_category": "buah",
@@ -110,7 +128,7 @@
         },
         {
             "id": "12",
-            "product_name": "Jeruk Berastagi",
+            "product_name": "Jeruk Mandarin",
             "product_category": "buah",
             "product_grade": "C",
             "product_image": "https://images.unsplash.com/photo-1459663296021-50769c04b149?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8b3JhbmdlJTIwZ3JvY2VyaWVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
@@ -137,7 +155,7 @@
         },
         {
             "id": "13",
-            "product_name": "Apel",
+            "product_name": "Apel Fuji",
             "product_category": "buah",
             "product_grade": "C",
             "product_image": "https://images.unsplash.com/photo-1560806887-1e4cd0b6cbd6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8YXBwbGV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
@@ -749,7 +767,7 @@
         },
         {
             "id": "80",
-            "product_name": "Ayam Boiler",
+            "product_name": "Ayam Potong",
             "product_category": "daging",
             "product_grade": "B",
             "product_image": "https://gdmagri.com/wp-content/uploads/2020/07/harga-ayam-3.jpg",
@@ -767,7 +785,7 @@
         },
         {
             "id": "81",
-            "product_name": "Dada Ayam",
+            "product_name": "Dada Ayam Potong",
             "product_category": "daging",
             "product_grade": "B",
             "product_image": "https://i2.wp.com/blog.amurya.com/wp-content/uploads/2021/04/bisnis-jualan-ayam-potong.png?fit=670%2C445&ssl=1",
@@ -776,7 +794,7 @@
         },
         {
             "id": "82",
-            "product_name": "Paha Ayam",
+            "product_name": "Paha Ayam Potong",
             "product_category": "daging",
             "product_grade": "B",
             "product_image": "https://images.tokopedia.net/img/cache/500-square/VqbcmM/2021/9/14/3b7855d1-50d8-4778-be57-a015fae633ff.jpg",
