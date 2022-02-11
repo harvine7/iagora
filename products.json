@@ -388,6 +388,15 @@
             "product_uom": "/ kg"
         },
         {
+            "id": "40",
+            "product_name": "Cabai Rawit",
+            "product_category": "sayur",
+            "product_grade": "C",
+            "product_image": "https://i0.wp.com/www.mistar.id/wp-content/uploads/2021/07/cabe-rawit.jpg?fit=1120%2C1280&ssl=1",
+            "product_price": 32000,
+            "product_uom": "/ kg"
+        },
+        {
             "id": "41",
             "product_name": "Jeruk Nipis",
             "product_category": "sayur",
@@ -745,6 +754,15 @@
             "product_grade": "B",
             "product_image": "https://gdmagri.com/wp-content/uploads/2020/07/harga-ayam-3.jpg",
             "product_price": 32000,
+            "product_uom": "/ kg"
+        },
+        {
+            "id": "80",
+            "product_name": "Dada Ayam Fillet",
+            "product_category": "daging",
+            "product_grade": "B",
+            "product_image": "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full//99/MTA-7723296/afcbandung_paha_ayam_fillet_1_kg_daging_paha_ayam_filet_1kg_full01_j4ghcemh.jpg",
+            "product_price": 55000,
             "product_uom": "/ kg"
         },
         {
