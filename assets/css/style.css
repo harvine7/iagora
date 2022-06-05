@@ -2,7 +2,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   color: #444444;
 }
 
@@ -107,6 +107,67 @@ button.btn-download {
 button.btn-download:hover {
   background-color: white;
   color: #F94F4F;
+}
+
+b.appbtn {
+  background-color: #f94f4f;
+  padding: 5px 20px;
+  border-radius: 5px;
+  text-align: center;
+  color: white;
+  font-size: smaller;
+}
+
+.dot-circle:hover:before {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  border-radius: 0px;
+  transition: all .25s ease-out; }
+
+.dot-circle:before {
+  background: rgba(0, 229, 255, 0.1);
+  transition: all .25s ease-out;
+  border-radius: 50%;
+  -webkit-transform: rotate(0);
+          transform: rotate(0);
+  content: "";
+  height: 100px;
+  position: absolute;
+  top: -30px;
+  width: 100px; }
+
+.dot-circle:not(.right):before {
+  left: -25px; }
+
+.dot-circle.right:before {
+  right: -25px; }
+
+.demo-wrapper {
+  margin-top: 40px;
+  position: relative; }
+  .demo-wrapper .demo-sample:before {
+    content: "";
+    display: block;
+    height: 20px;
+    width: 1px;
+    background: #dee2e6;
+    margin: 12px 0;
+    position: absolute;
+    left: 50%;
+    top: -40px; }
+
+.box1 {
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: rgb(17 17 26 / 5%) 0px 4px 16px, rgb(17 17 26 / 5%) 0px 8px 32px;
+}
+
+i.icon-card {
+  font-size: 30pt;
+  color: white;
+  background-color: #f94f4f;
+  padding: 20px;
+  border-radius: 50%;
 }
 /*--------------------------------------------------------------
 # Back to top button
@@ -351,7 +412,7 @@ button.btn-download:hover {
   position: fixed;
   right: 15px;
   top: 25px;
-  z-index: 9998;
+  z-index: 999;
   border: 0;
   background: none;
   font-size: 24px;
@@ -606,7 +667,7 @@ section {
   content: '';
   width: 50px;
   height: 2px;
-  background: #3498db;
+  background: #f94f4f;
   display: inline-block;
 }
 
@@ -1013,6 +1074,265 @@ p.note {
 }
 
 /*--------------------------------------------------------------
+# Recipe
+--------------------------------------------------------------*/
+.carousel-item img {
+  width: auto;
+  border-radius: 10px;
+  height: 340px;
+  object-fit: cover;
+}
+
+a .category-box {
+  width: 100%;
+  height: 100px;
+  background: #fff;
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 22px;
+}
+
+a .category-box:hover {
+  border: 1px solid #f94f4f;
+}
+
+a .category-box img {
+  display: block;
+  margin: 0 auto;
+}
+
+a .category-box span {
+  font-size: 10pt;
+  color: black;
+  display: block;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.gtco-testimonials {
+  position: relative;
+  margin-top: 30px;
+}
+.gtco-testimonials .owl-nav {
+  display: none;
+}
+.gtco-testimonials .owl-dots {
+  text-align: center;
+}
+.gtco-testimonials .owl-dots span {
+  position: relative;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  display: block;
+  background: #fff;
+  border: 2px solid #f94f4f;
+  margin: 0 5px;
+}
+.gtco-testimonials .owl-dots .active {
+  box-shadow: none;
+}
+.gtco-testimonials .owl-dots .active span {
+  background: #f94f4f;
+  box-shadow: none;
+  height: 12px;
+  width: 12px;
+  margin-bottom: -1px;
+}
+.gtco-testimonials .card {
+  background: #fff;
+  box-shadow: 0 8px 30px -7px #c9dff0;
+  margin: 0 10px;
+  border-radius: 20px;
+  border: 0;
+}
+.gtco-testimonials .card .card-img-top {
+  height: 216px;
+}
+.gtco-testimonials .card h5 {
+  color: #01b0f8;
+  font-size: 21px;
+  line-height: 1.3;
+}
+.gtco-testimonials .card h5 span {
+  font-size: 18px;
+  color: #666666;
+}
+.gtco-testimonials .card p {
+  font-size: 18px;
+  color: #555;
+  padding-bottom: 15px;
+}
+.gtco-testimonials .active {
+  transition: all 0.3s;
+}
+.gtco-testimonials .center {
+  opacity: 1;
+}
+.gtco-testimonials .center h5 {
+  font-size: 24px;
+}
+.gtco-testimonials .center h5 span {
+  font-size: 20px;
+}
+.gtco-testimonials .center .card-img-top {
+  max-width: 100%;
+  height: 216px;
+}
+
+@media (max-width: 767px) {
+  .gtco-testimonials {
+    margin-top: 20px;
+  }
+}
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev {
+  outline: 0;
+}
+.owl-carousel button.owl-dot {
+  outline: 0;
+}
+.category-tag {
+  display: inline-block;
+  border-radius: 2px;
+  margin-top: 20px;
+  padding: 5px 10px;
+  background-color: #f6f6f6;
+  color:#b8b8b8;
+}
+.category-tag img {
+  border-radius: 0;
+  width: 22px !important;
+  height: auto;
+}
+.category-tag span {
+  color: #5886f0;;
+  font-size: 8pt;
+  font-weight: bold;
+}
+span.posting-date {
+  font-size: 8pt;
+  color: rgb(151, 151, 151);
+}
+.recipe-content {
+  width: auto;
+  margin-bottom: 60px;
+}
+.recipe-title {
+  display: block;
+  text-align: center;
+  margin-top: -10px;
+}
+.recipe-content img {
+  border-radius: 10px;
+  width: auto;
+  height: 240px;
+  object-fit: cover;
+}
+.col-right {
+  width: 85%;
+  display: block;
+  margin: 0 20px;
+}
+tr.mini td {
+  background-color: #ecf6f6;
+  border: none;
+  text-align: center;
+}
+button.copy-btn {
+  display: block;
+  margin: 0 auto;
+  width: 70%;
+}
+button.copy-btn:focus {
+  box-shadow: none;
+}
+input.recipe-check {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  width: 25px;
+  height: 25px;
+}
+input[type="checkbox"]:checked {
+  background: #f94f4f !important;
+}
+.step-img img {
+  border-radius: 10px;
+  margin-bottom: 20px;
+  width: auto;
+  height: 200px;
+  object-fit: cover;
+}
+.modal:before {
+  content: '';
+  display: inline-block;
+  vertical-align: middle;
+}
+.modal-dialog {
+  display: block;
+  margin: 0 auto;
+}
+.modal-newsletter {
+  padding: 0;
+}
+.img-newsletter img {
+  display: block;
+  margin: 0 auto;
+}
+button.close, button.close:hover {
+  z-index: 9999;
+  background-color: #f94f4f;
+  opacity: 1;
+  padding: 10px;
+  color: white;
+}
+.text-newsletter {
+  width: 80% !important;
+  text-align: center;
+}
+.text-newsletter p {
+  font-size: 10pt;
+}
+form.form-newsletter input {
+  width: 100%;
+  height: 50px;
+  background-color: #efefef;
+  border: none;
+  padding-left: 10px;
+  font-size: 10pt;
+}
+form.form-newsletter input::placeholder {
+  font-size: 10pt;
+}
+form.form-newsletter button {
+  width: 100%;
+  background-color: #f94f4f;
+  color: #fff;
+  border: none;
+  border-radius: 0;
+}
+form.form-newsletter button:hover {
+  background-color: #de3939;
+}
+.before-sub {
+  display: none;
+}
+.after-sub {
+  display: none;
+}
+@media screen and (min-width:1024px) {
+  .img-newsletter-xs {
+    display: none !important;
+  }
+}
+@media screen and (max-width:767px) {
+  .img-newsletter-lg {
+    display: none !important;
+  }
+}
+/*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
 .services .icon-box {
@@ -1029,7 +1349,7 @@ p.note {
 .services .icon-box::before {
   content: '';
   position: absolute;
-  background: #e1f0fa;
+  background: #fcd7d7;
   right: -60px;
   top: -40px;
   width: 100px;
@@ -1040,7 +1360,7 @@ p.note {
 }
 
 .services .icon-box:hover::before {
-  background: #3498db;
+  background: #f94f4f;
   right: 0;
   top: 0;
   width: 100%;
@@ -1048,7 +1368,7 @@ p.note {
   border-radius: 0px;
 }
 
-.services .icon {
+.services .icon, .icon-wingman {
   margin: 0 auto 20px auto;
   padding-top: 10px;
   display: inline-block;
@@ -1056,11 +1376,11 @@ p.note {
   border-radius: 50%;
   width: 60px;
   height: 60px;
-  background: #3498db;
+  background: #f94f4f;
   transition: all 0.3s ease-in-out;
 }
 
-.services .icon i {
+.services .icon i, .icon-wingman {
   font-size: 36px;
   line-height: 1;
   color: #fff;
@@ -1091,7 +1411,201 @@ p.note {
 }
 
 .services .icon-box:hover .icon i {
-  color: #3498db;
+  color: #f94f4f;
+}
+
+button.btn-procedure {
+  color: #000;
+  background-color: #fff;
+  border: 2px solid #f94f4f;
+  border-radius: 30px;
+}
+
+button.btn-procedure i {
+  color: #f94f4f;
+}
+
+button.btn-procedure:hover {
+  color: #000;
+  background-color: #fff;
+  border: 2px solid #f94f4f;
+}
+
+button.btn-red {
+  padding: 10px 20px;
+  color: #fff;
+  font-weight: bold;
+  background-color: #f94f4f;
+  border-radius: 30px;
+}
+
+button.btn-red i {
+  color: #fff;
+}
+
+button.btn-red:hover {
+  color: #fff;
+  background-color: #d33131;
+}
+
+.simulation {
+  background-color: #f6f6f6;
+  padding: 10px 20px;
+  text-align: left;
+  font-size: 15px;
+}
+/*--------------------------------------------------------------
+# Standard
+--------------------------------------------------------------*/
+.standard .icon-box {
+  padding: 60px 30px;
+  transition: all ease-in-out 0.3s;
+  background: #fefefe;
+  box-shadow: 0px 5px 90px 0px rgba(249, 79, 79, 0.1);
+  border-radius: 18px;
+  border-bottom: 5px solid #fff;
+}
+.standard .icon-box .icon {
+  width: 64px;
+  height: 64px;
+  background: #f94f4f;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  transition: ease-in-out 0.3s;
+  color: #fff;
+}
+.standard .icon-box .icon i {
+  font-size: 28px;
+}
+.standard .icon-box h4 {
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 24px;
+}
+.standard .icon-box h4 a {
+  color: #282828;
+  transition: ease-in-out 0.3s;
+}
+.standard .icon-box p {
+  line-height: 24px;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+.standard .icon-box:hover {
+  transform: translateY(-10px);
+  border-color: #f94f4f;
+}
+
+/*--------------------------------------------------------------
+# Income
+--------------------------------------------------------------*/
+.income ul {
+  list-style: none;
+  padding: 0;
+}
+.income ul li {
+  padding-left: 28px;
+  position: relative;
+}
+.income ul li + li {
+  margin-top: 10px;
+}
+.income ul i {
+  position: absolute;
+  left: 0;
+  top: 2px;
+  font-size: 20px;
+  color: #f94f4f;
+  line-height: 1;
+}
+.income p:last-child {
+  margin-bottom: 0;
+}
+.income .btn-learn-more {
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 32px;
+  border-radius: 50px;
+  transition: 0.3s;
+  line-height: 1;
+  color: #009961;
+  -webkit-animation-delay: 0.8s;
+  animation-delay: 0.8s;
+  margin-top: 6px;
+  border: 2px solid #009961;
+}
+.income .btn-learn-more:hover {
+  background: #009961;
+  color: #fff;
+  text-decoration: none;
+}
+
+/*--------------------------------------------------------------
+# Why Us
+--------------------------------------------------------------*/
+ .content-item {
+  padding: 20px;
+  border-left: 1px solid #c0c0c0;
+  border-bottom: 1px solid #c0c0c0;
+  margin: -1px;
+}
+ .content-item span {
+  display: block;
+  font-size: 24px;
+  font-weight: 400;
+  color: #6ec083;
+}
+ .content-item p {
+  color: #000;
+  font-size: 15px;
+  margin: 0;
+  padding: 0;
+}
+@media (max-width: 768px) {
+  .content-item {
+    padding: 40px 0;
+  }
+}
+
+/*--------------------------------------------------------------
+# Featured Services
+--------------------------------------------------------------*/
+.featured-services {
+  padding: 20px 0;
+}
+.featured-services .icon-box {
+  padding: 20px;
+}
+.featured-services .icon-box-bg {
+  background-image: linear-gradient(0deg, #222222 0%, #2f2f2f 50%, #222222 100%);
+}
+.featured-services .icon {
+  margin-bottom: 15px;
+}
+.featured-services .icon i {
+  color: #5cb874;
+  font-size: 42px;
+}
+.featured-services .title {
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+.featured-services .title a {
+  color: #222222;
+  transition: 0.3s;
+}
+.featured-services .icon-box:hover .title a {
+  color: #5cb874;
+}
+.featured-services .description {
+  line-height: 24px;
+  font-size: 14px;
 }
 
 /*--------------------------------------------------------------
@@ -1883,60 +2397,51 @@ button.btn-styled:hover {
   }
 }
 
-
 /*--------------------------------------------------------------
-# News
+# Help Center
 --------------------------------------------------------------*/
-
-.b-0 {
-  bottom: 0;
-}
-.bg-shadow {
-  background: rgba(76, 76, 76, 0);
-  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(179, 171, 171, 0)), color-stop(49%, rgba(48, 48, 48, 0.37)), color-stop(100%, rgba(19, 19, 19, 0.8)));
-  background: linear-gradient(to bottom, rgba(179, 171, 171, 0) 0%, rgba(48, 48, 48, 0.71) 49%, rgba(19, 19, 19, 0.8) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#131313', GradientType=0 );
-}
-.top-indicator {
-  right: 0;
-  top: 1rem;
-  bottom: inherit;
-  left: inherit;
-  margin-right: 1rem;
-}
-.overflow {
-  position: relative;
-  overflow: hidden;
-}
-.zoom img {
-  transition: all 0.2s linear;
-}
-.zoom:hover img {
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
+.help-component {
+  margin-bottom: 40px;
 }
 
-.news-card {
-  transition: .5s;
+i.help-icon {
+  color: #f94f4f;
+  font-size: 60px;
 }
-.news-card:hover {
-  padding: 0;
-  border-radius: 5%;
-  background-color: #fff;
-  transition: .5s;
+
+.help-menu {
+  display: flex;
 }
-img.img-news {
-  border-radius: 2%;
+
+.help-menu span {
+  margin: 0 15px;
 }
-h4.news-title {
-  color: #000;
+
+h4.help-hover {
+  transition: all .5s;
+  font-weight: 600;
 }
-span.date-news {
-  font-size: 10pt;
+
+h4.help-hover:hover {
+  transition: all .5s;
+  color: #f94f4f;
 }
-span.source-news {
-  font-size: 10pt;
-  color: #a5a5a5;
+
+.nav-to {
+  border-left: 1px solid #c2c2c2;
+}
+
+.nav-to a {
+  color: black;
+  line-height: 40px;
+}
+
+.nav-to a:hover {
+  color:#f94f4f;
+}
+
+.help-content p {
+  text-align: justify;
 }
 /*--------------------------------------------------------------
 # Footer
